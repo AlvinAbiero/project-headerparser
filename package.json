@@ -4,7 +4,7 @@
   "description": "API project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.1",
@@ -13,17 +13,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-headerparser.git"
+    "url": "https://github.com/AlvinAbiero/project-headerparser"
   },
   "bugs": {
     "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
   },
   "homepage": "https://github.com/freeCodeCamp/boilerplate-project-headerparser#readme",
-  "author": "freeCodeCamp <team@freecodecamp.org>",
+  "author": "Alvin Abiero",
   "keywords": [
     "freeCodeCamp",
     "node",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
